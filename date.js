@@ -55,9 +55,9 @@ const today = () => {
             today.getFullYear(),
             today.getMonth(),
             today.getDate(),
-            0,
-            0,
-            0
+            today.getHours(),
+            today.getMinutes(),
+            today.getSeconds()
         )
     );
 };
